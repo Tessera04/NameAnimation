@@ -1,0 +1,43 @@
+@font-face {
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    font-family: "Kairos Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    /*background-color: #8357eb;*/
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  main {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #ffffff;
+    font-variation-settings: "wght" 466.666, "wdth" 100, "ital" 1;
+    font-size: 15rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #40E4AF ,
+      15px 15px 0px #FFC300,
+      20px 20px 0px #FF5733,
+      25px 25px 0px #C70039,
+      45px 45px 10px #581845;
+    cursor: pointer;
+  }
+  
+  main:hover {
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+  }
+  
